@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 320px; font-family: Arial, sans-serif; padding: 10px; margin: 0; }
+    h2 { color: #2c3e50; margin-top: 0; }
+    button { 
+      width: 100%; padding: 10px; background-color: #3498db; 
+      color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;
+    }
+    button:hover { background-color: #2980b9; }
+    #output { 
+      margin-top: 15px; padding: 10px; background: #f8f9fa; 
+      border: 1px solid #ddd; border-radius: 4px; max-height: 200px; 
+      overflow-y: auto; white-space: pre-wrap; font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <h2>DevFlow Dashboard</h2>
+  <button id="generateBtn">Generate Standup Notes</button>
+  <div id="output">Your AI standup notes will appear here...</div>
+
+  <!-- Safely linking external JavaScript file -->
+  <script src="popup.js"></script>
+</body>
+</html>
