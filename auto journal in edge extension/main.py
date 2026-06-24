@@ -9,7 +9,7 @@ from groq import Groq
 app = FastAPI()
 
 # 🔴 Paste your free Groq API key here inside the quotes
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "input_your_groq_api"
 
 # Initialize the Groq Client
 ai_client = Groq(api_key=GROQ_API_KEY)
